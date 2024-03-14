@@ -1,4 +1,4 @@
-# nerfstudio-method-template
+# nerfstudio-method
 Repository for creating and registering NeRFUS methods in Nerfstudio.
 
 ## Registering with Nerfstudio
@@ -12,7 +12,7 @@ ns-install-cli
 ```
 
 ## Running the new method
-This repository creates a new Nerfstudio method named "method-template". To train with it, run the command:
+This repository creates a new Nerfstudio method named "nerfus". To train with it, run the command:
 ```
 ns-train nerfus --data [PATH]
 ```
