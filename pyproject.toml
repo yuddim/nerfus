@@ -1,0 +1,18 @@
+[project]
+name = "nerfstudio-nerfus"
+description = "Nerfus repo."
+version = "0.1.0"
+
+dependencies = [
+    "imgviz",
+    "nerfstudio >= 0.3.0",
+    "torch-uncertainty",
+    "safetensors",
+]
+
+[tool.setuptools.packages.find]
+include = ["nerfus*"]
+
+# register the entry point of your new method here:
+[project.entry-points.'nerfstudio.method_configs']
+method-template = 'nerfus.nerfus_config:nerfus_ngp'
