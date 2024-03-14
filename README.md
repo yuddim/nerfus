@@ -1,4 +1,4 @@
-# nerfstudio-method
+# nerfstudio-nerfus
 Repository for creating and registering NeRFUS methods in Nerfstudio.
 
 ## Registering with Nerfstudio
