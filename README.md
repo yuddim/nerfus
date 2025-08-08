@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1034579903.svg)](https://doi.org/10.5281/zenodo.16781929)
+
 # nerfstudio-nerfus
 Repository for creating and registering NeRFUS methods in Nerfstudio.
 
